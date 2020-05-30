@@ -111,7 +111,7 @@ border: 1px solid;
 border-color: inherit;
 margin: 20px 0;
 }
- input, li {
+ input {
     background-color: transparent;
     outline: none;
     cursor: pointer;
@@ -119,10 +119,19 @@ margin: 20px 0;
     border: none;
     padding: 5px;
     font-size: 18px;
-    
+ }
+#verMais2 ul {
+    margin: 1em 2em
+}
+#verMais2 li{
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 10px;
+}
     
 
-}
+
 .txt-hidden {
     visibility: hidden;
     opacity: 0;

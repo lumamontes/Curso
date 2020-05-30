@@ -168,6 +168,8 @@ div.txt-hidden {
     flex-direction: row-reverse;
 }
 
+/* RESPONSIVIDADE */
+
 @media (max-width: 850px) 
 {
 
@@ -241,11 +243,6 @@ div.txt-hidden {
   .info-img img  {
    width: 200px;
   }
-
-.gif-jason {
-
-}
-
   .info-img {
     margin-top: 15px;
     padding: 0;

@@ -104,14 +104,14 @@ body main section.sist-infos-container h1 {
 
 
 }
-.btn-1 {
+.btn-1, .btn-2, .btn-3, .btn-4 {
 width: 120px;
 text-align: center;
 border: 1px solid;
 border-color: inherit;
 margin: 20px 0;
 }
-.btn-1 input {
+ input, li {
     background-color: transparent;
     outline: none;
     cursor: pointer;

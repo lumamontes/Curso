@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistemas para a internet</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
 
 
 </head>
@@ -34,7 +35,7 @@
 <body>
     <main>
         <section class="sist-infos-container">
-            <article class="info blue">
+            <article id="sobre" class="info blue">
                 <div class="info-txt">
                     <h1>Sobre o curso</h1>
 
@@ -84,7 +85,7 @@
                 </div>
             </article>
 
-            <article class="info white reverse">
+            <article id="campo" class="info white reverse">
                 <div class="info-txt">
                     <h1>Campo de atuação</h1>
 
@@ -128,7 +129,7 @@
                     <img src="img/woman-server.png" alt="">
                 </div>
             </article>
-            <article class="info blue ">
+            <article id="perfil" class="info blue ">
                 <div class="info-txt">
                     <h1>Perfil do Profissional</h1>
                     <p>O Tecnólogo em Sistemas para Internet deve ser capaz de aliar conhecimentos em comunicação,
@@ -156,7 +157,7 @@
                 </div>
             </article>
 
-            <article class="info white">
+            <article id="mercado" class="info white">
                 <div class="info-txt">
                     <h1>Mercado de Trabalho</h1>
                     <p>
@@ -188,7 +189,7 @@
 
             </article>
 
-            <article class="info blue">
+            <article id="duracao" class="info blue">
                 <div class="info-txt">
                     <h1>Duração do curso</h1>
                     <p>5 Semestres (2 anos e meio)</p>
@@ -198,36 +199,99 @@
             </article>
         </section>
     </main>
-    <footer>
-        <ul>
-            <ul>
-                <li>Sobre:</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nobis dolorum vel iusto eius saepe
-                    est, consequatur dignissimos distinctio obcaecati cum illum at fugiat architecto! Tenetur impedit
-                    ullam libero explicabo.:</li>
+    
+<footer class="page-footer font-small stylish-color-dark pt-4">
 
-            </ul>
-
-
-            <ul>
-                <li><a href="http://www.freepik.com">Designed by katemangostar / Freepik</a>
-                </li>
-                <li>Fontes:</li>
-                <li>Fontes:</li>
-                <li>Fontes:</li>
-            </ul>
-
-            <ul>
-                <li>Meta</li>
-                <li>GitHub</li>
-                <li>Facebook</li>
-                <li>Twitter</li>
-            </ul>
-
-            <li>Com s2<a href="#">Luma</a>
+    
+    <div class="container text-center text-md-left">
+  
+      <div class="row">
+  
+        <div class="col-md-4 mx-auto">
+  
+          
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">sobre</h5>
+          <p id="txtsobre" >A Faculdade Meta disponibiliza diversos cursos de ensino superior, sempre com os melhores professores e conteúdos. No nosso ambiente docente encontra-se recursos tecnológicos de ponta, uma variedade de laboratórios de informática, de enfermagem e Radiologia. Buscando sempre o que o mercado necessita e aplicando da melhor forma possível para os nossos alunos. 
+          </p>
+  
+        </div>
+        
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+  
+        <div class="col-md-2 mx-auto">
+  
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Menu</h5>
+  
+          <ul class="list-unstyled">
+            <li><a href="#titulos">Home</a></li>
+            <li><a href="#sobre">Sobre o curso</a></li>
+            <li><a href="#campo">Campo de atuação</a></li>
+            <li><a href="#perfil">Perfil do profissional</a></li>
+            <li><a href="#mercado">Mercado de Trabalho</a></li>
+            <li><a href="#duração">Duração</a></li>
+          </ul>
+  
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+  
+  
+        <div class="col-md-2 mx-auto">
+  
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li><a href="http://www.freepik.com">Designed by katemangostar / Freepik</a>
             </li>
-        </ul>
-    </footer>
+            <li>Fontes:</li>
+            <li>Fontes:</li>
+            <li>Fontes:</li>
+          </ul>
+  
+        </div>
+     
+  
+      </div>
+     
+  
+    </div>
+ 
+  
+    <hr>
+  
+    
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+   
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://github.com/lumamontes/Curso"> noizes</a>
+    </div>
     <script src="https://kit.fontawesome.com/ac4c6e2b8b.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="script.js"></script>

@@ -249,6 +249,12 @@ div.txt-hidden {
     width: 30%;
 
   } 
-
+  
  }
+   /*===== Footer ===== */
+li a:link{text-decoration: none; color: black;}
+li a:visited{text-decoration: none; color: black;}
+li a:hover{font-weight: bold; color:#25167a;}
+#txtsobre{text-align: justify;}
+
    
